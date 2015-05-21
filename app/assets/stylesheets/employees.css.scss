@@ -1,0 +1,556 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+background: url(sav.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+#name
+{
+padding-top:40px;
+}
+.fontcls
+{
+padding:20px;
+font:23px "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#circle
+{
+height:160px;
+width:160px;
+position:relative;
+background-color:white;
+border:1px solid #000;
+}
+#font
+{
+  size:20px;
+padding:40px;
+}
+#tron
+{
+height:60px;
+width:900px;
+background-color:white; 
+}
+#tron-main
+{
+height:250px;
+width:1000px;
+
+}
+#sld
+{
+width:700px;
+height:406px;
+background-color:inherit;
+border:none;
+box-shadow:1px 5px 15px 6px #A59D9D;
+
+}
+#com
+{
+font-size:25px;
+font-family:Comic Sans MS;
+color:red;
+
+}
+#tag
+{
+padding-top:40px;
+}
+#quote
+{
+background-color:Black; 
+
+padding-top:20px;
+}
+#jjj
+{
+height:10px;
+width:1200px;
+}
+#bloodneed
+{
+height:150px;
+}
+#img
+{
+padding-top:10px;
+padding-left:0px;
+height:60px;
+width:280px;
+}
+.glyphicon
+{ 
+color:red;
+height:20px;
+width:20px;
+}
+.col-md-3
+{
+padding-left:40px;
+}
+
+.form-group
+{
+  margin-bottom:8px;
+}
+
+.firstform
+{
+ 
+  border: none;
+  width: 300px;
+  height: 465px;
+  box-shadow:1px 2px 6px 6px #C9C9C9;
+-webkit-box-shadow:4px 4px 6px 8x #C9C9C9;
+-moz-box-shadow:3px 4px 6px 10px #C9C9C9;
+ background:url(trans1.png);
+}
+
+#font
+{
+font:21px "Trebuchet MS", Arial, Helvetica, sans-serif;
+padding-top:20px;
+padding-left:10px;
+}
+
+#qut-img
+{
+color:red;
+height:40px;
+width:35px;
+padding-top:0px;
+padding-left:7px;
+margin-top:0px;
+background-color:inherit;
+
+}
+#deviceBack
+{
+
+padding-top:40px;
+}
+#device
+{
+width:1500px;
+height:380px;
+}
+.tableContent
+{
+margin:30px;
+color:#999;
+}
+table
+{
+display: table;
+border-collapse: separate;
+border-color: gray;
+}
+#jumb
+{
+height:80px;
+width:80%;
+padding-top:0px;
+box-shadow:1px 1px 12px 3px rgba(250, 247, 247, 0.97);
+background-color:inherit;
+border-radius: 20px;
+}
+#space
+{
+padding-top:20px;
+padding-left:20px;
+width:25%;
+}
+#bs-exmp
+{
+padding-left:16px;
+padding-right:6px;
+}
+#scndformspace
+{
+
+padding-top:20px;
+}
+#wid
+{
+  width:8%
+}
+#wid1
+{
+  width:8%;
+  padding-left:30px;
+}
+  .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+ 
+}
+.carousel-inner
+{
+  width:63%;
+}
+
+.carousel-control.right
+{
+  left:52.5%
+}
+
+
+.text-center
+{
+  font:24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#taking_name
+{
+  margin:10px;
+  width :90%
+}
+#taking_phno
+{
+ margin:10px;
+  width :90%
+}
+#taking_bloodgroup
+{
+ margin:10px;
+  width :70%;
+  height:25px;
+}
+#taking_place
+{
+  margin:10px;
+  width :90%;
+}
+#giving_name
+{
+  
+  width :90%
+}
+#giving_phno
+{
+ 
+  width :90%
+}
+#giving_bloodgroup
+{
+ 
+  width :70%;
+  height:25px;
+}
+#giving_place
+{
+ 
+  width :90%;
+}
+#taking_msg
+{
+ margin:10px;
+  width :90%;
+  
+    height: 100px;
+    padding-bottom: 61px;
+
+  
+}
+
+#content
+{
+  padding:0px;
+  height:485px;
+}
+.wrap
+{
+  word-wrap: break-word;
+  font-size:20px;
+}
+#comment
+{
+ background: url(com.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow:auto;
+   overflow-x: hidden;
+   display:block;
+   text-align:left;
+    position:relative;
+    height:200px;
+    width:250px;
+    padding:0px;
+    
+    
+ 
+}
+.are{
+background-color:black; 
+padding-right:10px;
+width:100%;
+padding-left:0px;
+}
+
+#taking_bloodgroup
+{
+  width:90px;
+}
+#giving_bloodgroup
+{
+  width:90px;
+}
+label
+{
+  color:red;
+}
+#lbl
+{
+  padding-left :5px;
+}
+.btn
+{
+  margin-top:8px;
+  background-color: #428bca;
+ color:beige;
+ width:250px;
+  
+}
+
+.corner
+{
+padding-bottom:30px;
+}
+#closeButton
+{
+width:25px;
+height:25px;
+padding-right:8px;
+padding-left:0px;
+padding-bottom:0px;
+padding-top:0px;  
+}
+#cls-img
+{
+
+}
+
+
+.singup{
+padding-top:100px;
+padding-bottom:100px;
+padding-left:300px;
+padding-right:730px;
+}
+
+
+.act-page
+{
+
+height:250px;
+width:450px;
+left:50%;
+top:17%;
+
+}
+
+#wrapper
+{
+clear:both;
+height:40px;
+width:500px;
+
+}
+
+
+#singing
+{
+height:40px;
+width:220px;
+clear:both;
+border:1px solid #000;
+float:left;
+border-radius:10px;
+background-color:#fff
+
+
+}
+
+
+.pull-left
+{
+height:40px;
+width:220px;
+border:1px solid #000;
+float:left;
+
+}
+
+.btn
+{
+height:40px;
+width:220px;
+background-color:#428bca;
+
+border:none;
+
+}
+.hide-btn
+{
+height:33px;
+width:50px;
+border:none;
+background-color:white;
+margin-left:0px;
+
+
+}
+
+#form
+{
+height:210px;
+width:450px;
+padding-top:20px;
+}
+#name
+{
+padding:7px;
+width:300px;
+
+}
+#email
+{
+padding:7px;
+width:300px;
+
+}
+
+#password
+{
+padding:7px;
+width:300px;
+}
+  
+#form p
+{
+padding-top:10px;
+}
+.login-submit
+{
+height:40px;
+width:450px;
+
+
+border:none;
+background-color:#006699;
+}
+
+.header12
+{
+height:80px;
+width:100%;
+background-color:black;
+}
+.signup-btn
+{
+padding-right:50px; 
+float:right;
+padding-top:20px;
+}
+.head-sign-btn
+{
+border:none;
+background-color:#6fbcda;
+padding:10px;
+
+}
+.head-new-btn
+{
+border:none;
+background-color:#6fbcda;   
+padding:10px;
+}
+#ab{
+width:100%;
+height:100%;
+opacity:.75;
+top:0;
+left:0;
+
+display:none;
+position:fixed;
+background-color:#313131;
+
+}
+
+#list
+{
+  background-color:white;
+  padding-left:20px;
+  margin-left:30%;
+  width:40%
+  
+}
+
+#lstphno
+{
+  padding-left:80px;
+}
+
+.modal-backdrop.in
+{
+  opacity: 0.1;
+}
+
+#myModal {
+width:100%;
+height:100%;
+opacity:0.9;
+top:0;
+left:0;
+
+display:none;
+position:fixed;
+background-color:#313131;
+
+}
+
+
+
+#popp
+{
+  position:static;
+}
+.modal-backdrop.fade.in
+{
+  z-index: 0;
+}
+#arr
+{
+  width:20px;
+  height:20px;
+}
+
+#div_show
+{
+  margin:10px;
+width:250px;
+ text-align:center;
+}
+
+
+
+
+
+
+

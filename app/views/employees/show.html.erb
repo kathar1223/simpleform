@@ -1,0 +1,19 @@
+
+<h2 class="text-center"> Your messages has been sent to the following members</h2>
+	<div id="list">
+		
+		<table style="width:100%">
+			
+  <tr>
+    <th>Name</th>
+    <th>Phone Number</th>
+  </tr>
+  <% @st.each do |j|%>
+  <tr>
+    <td><%= j.name%></td>
+    <td><%= j.phno%></td>
+  </tr>
+  <%end%>
+</table>
+	</div>
+
