@@ -8,6 +8,7 @@ gem 'rails-footnotes', '>=3.7.9', :group=> :development
 gem 'rails', '4.1.8'
 gem 'rspec'
 gem 'twilio-ruby'
+gem  'heroku'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
